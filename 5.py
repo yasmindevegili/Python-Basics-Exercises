@@ -1,4 +1,4 @@
-X = int(input(""))
-Y = int(input(""))
+X = int(input())
+Y = int(input())
 PROD = X*Y
-print("PROD =",X,"\n")
+print('PROD =',X,'\n')

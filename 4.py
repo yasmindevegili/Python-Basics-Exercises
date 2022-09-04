@@ -1,4 +1,4 @@
-A = int(input(""))
-B = int(input(""))
+A = int(input())
+B = int(input())
 SOMA = A+B
-print("SOMA = ",SOMA, "\n")
+print('SOMA = ',SOMA, '\n')
