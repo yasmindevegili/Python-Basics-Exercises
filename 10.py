@@ -1,6 +1,3 @@
-from tokenize import Double
-
-
 nome = str(input())
 salario = float(input())
 vendas = float(input())
