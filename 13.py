@@ -1,15 +1,16 @@
-A = float(input().replace(',', '.'))
-B = float(input().replace(',', '.'))
-C = float(input().replace(',', '.'))
+A, B, C = input().split()
+A = float(A)
+B = float(B)
+C = float(C)
 pi = 3.14159
 
-tri_retangulo = (A*C)/2
+tri_retangulo = (A)*(C)/2
 circulo = pi*(C**2)
-trapezio = ((A+B)*C)/2
+trapezio = (A+B)*C/2
 quadrado = B**2
-retangulo = A*B
+retangulo = (A)*(B) 
 
-print ("TRIÂNGULO: {:.3f}".format(tri_retangulo))
+print ("TRIANGULO: {:.3f}".format(tri_retangulo))
 print ("CIRCULO: {:.3f}".format(circulo))
 print ("TRAPEZIO: {:.3f}".format(trapezio))
 print ("QUADRADO: {:.3f}".format(quadrado))
