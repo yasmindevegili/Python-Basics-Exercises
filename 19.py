@@ -11,5 +11,11 @@ notas5 = resto10/5
 resto5 = resto10%5
 notas2 = resto5/2
 resto2 = resto5%2
-print (N,"\n%i nota(s) de R$ 100,00\n%i nota(s) de R$ 50,00\n%i nota(s) de R$ 20,00\n%i nota(s) de R$ 10,00\n%i nota(s) de R$ 5,00\n%i nota(s) de R$ 2,00\n%i nota(s) de R$ 1,00\n" %(notas100, notas50, notas20, notas10, notas5, notas2, resto2))
-
+print (N)
+print ("%i nota(s) de R$ 100,00"%(notas100))
+print ("%i nota(s) de R$ 50,00"%(notas50))
+print ("%i nota(s) de R$ 20,00"%(notas20))
+print ("%i nota(s) de R$ 10,00"%(notas10))
+print ("%i nota(s) de R$ 5,00"%(notas5))
+print ("%i nota(s) de R$ 2,00"%(notas2))
+print ("%i nota(s) de R$ 1,00"%(resto2))
