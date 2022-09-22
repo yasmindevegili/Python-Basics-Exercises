@@ -10,5 +10,6 @@ if(A==0) or (delta<0):
 else:
     root1 = (-B+math.sqrt(delta))/(2*A)
     root2 = (-B-math.sqrt(delta))/(2*A)
-    print ("R1 = {:.5f}".format(root1),"\nR2 = {:.5f}".format(root2))
+    print ("R1 = {:.5f}".format(root1))
+    print ("R2 = {:.5f}".format(root2))
     
